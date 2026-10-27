@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374fb593ac85e0842af970b034b91ae3, type: 3}
+  m_Name: Stone armor
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: "\u77F3\u7532"
+  icon: {fileID: 21300000, guid: dc728e907ddf17446b5e2610ae3c0509, type: 3}
+  itemId: 3844d2426c5af46469cab82ca05637c7
+  dropChance: 0
+  equipmentType: 1
+  itemCooldown: 0
+  itemEffects: []
+  itemEffectDescription: "\u786C\uFF0C\u4F46\u53C8\u4E0D\u90A3\u4E48\u786C"
+  strength: 0
+  agility: 0
+  intelligence: 0
+  vitality: 0
+  damage: 0
+  critChance: 0
+  critPower: 0
+  maxHealth: 100
+  armor: 20
+  evasion: 0
+  magicResistance: 0
+  fireDamage: 0
+  iceDamage: 0
+  lightningDamage: 0
+  craftingMaterials:
+  - data: {fileID: 11400000, guid: f355184f76a52fb46bad67e11edc8601, type: 2}
+    stackSize: 3

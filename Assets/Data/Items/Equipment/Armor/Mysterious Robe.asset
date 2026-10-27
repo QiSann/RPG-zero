@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374fb593ac85e0842af970b034b91ae3, type: 3}
+  m_Name: Mysterious Robe
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: "\u795E\u79D8\u6CD5\u888D"
+  icon: {fileID: 21300000, guid: 19b565461d61a4c45bc1de49802dbb35, type: 3}
+  itemId: 893a2358a1ee57e44a44e38ca9abe114
+  dropChance: 0
+  equipmentType: 1
+  itemCooldown: 10
+  itemEffects:
+  - {fileID: 11400000, guid: 7819f236dad6b3f4f9d26437fd19a682, type: 2}
+  - {fileID: 11400000, guid: 226fc1b76a1a35242b97bd0815d98db7, type: 2}
+  - {fileID: 11400000, guid: f6b1536c535570041859258032f9ddfc, type: 2}
+  - {fileID: 11400000, guid: f188d2e7c2be98d478ffbdb755e7fe36, type: 2}
+  - {fileID: 11400000, guid: 23e54675f95795a4c9708c8e48082ca0, type: 2}
+  itemEffectDescription: "\u5947\u602A\u7684\u4E1C\u897F\u3001\u4F46\u662F\u5F88\u5F3A"
+  strength: 5
+  agility: 5
+  intelligence: 5
+  vitality: 5
+  damage: 5
+  critChance: 15
+  critPower: 5
+  maxHealth: 200
+  armor: 20
+  evasion: 20
+  magicResistance: 10
+  fireDamage: 5
+  iceDamage: 5
+  lightningDamage: 5
+  craftingMaterials:
+  - data: {fileID: 11400000, guid: 0a3c016344c03914283f20066c3d376e, type: 2}
+    stackSize: 2
+  - data: {fileID: 11400000, guid: 1c10915db045bfc4d979c542d4ec83b9, type: 2}
+    stackSize: 1

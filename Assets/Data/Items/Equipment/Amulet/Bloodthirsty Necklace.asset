@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374fb593ac85e0842af970b034b91ae3, type: 3}
+  m_Name: Bloodthirsty Necklace
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: "\u55DC\u8840\u4E4B\u94FE"
+  icon: {fileID: 21300000, guid: abbc38d477f78ab4791584b37080aef7, type: 3}
+  itemId: 0d16a5f17db26eb49818d874dfdc79e4
+  dropChance: 0
+  equipmentType: 2
+  itemCooldown: 0
+  itemEffects:
+  - {fileID: 11400000, guid: 24a52c551254ae1469dd5c23ef940457, type: 2}
+  itemEffectDescription: "\u5438\u8840\u9B3C\u7684\u9879\u94FE\u3001\u90A3\u81EA\u7136\u80FD\u5438\u8840"
+  strength: 5
+  agility: 3
+  intelligence: 0
+  vitality: 5
+  damage: 5
+  critChance: 0
+  critPower: 0
+  maxHealth: 15
+  armor: 4
+  evasion: 2
+  magicResistance: 4
+  fireDamage: 0
+  iceDamage: 0
+  lightningDamage: 0
+  craftingMaterials:
+  - data: {fileID: 11400000, guid: 84e0be0c4332e75409a3d3d0e23ede4f, type: 2}
+    stackSize: 3
+  - data: {fileID: 11400000, guid: f355184f76a52fb46bad67e11edc8601, type: 2}
+    stackSize: 5

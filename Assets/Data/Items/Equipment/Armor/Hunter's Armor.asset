@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374fb593ac85e0842af970b034b91ae3, type: 3}
+  m_Name: Hunter's Armor
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: "\u98CE\u4E4B\u6597\u7BF7"
+  icon: {fileID: 21300000, guid: 4249b88fb7a08e8488f65b69abd6054c, type: 3}
+  itemId: 81720d0f2be560c4497b1291ad02d375
+  dropChance: 0
+  equipmentType: 1
+  itemCooldown: 0
+  itemEffects:
+  - {fileID: 11400000, guid: 226fc1b76a1a35242b97bd0815d98db7, type: 2}
+  itemEffectDescription: "\u98CE\u4E4B\u5973\u795E\u4F1A\u5E87\u4F51\u4F60"
+  strength: 0
+  agility: 5
+  intelligence: 5
+  vitality: 0
+  damage: 0
+  critChance: 0
+  critPower: 0
+  maxHealth: 50
+  armor: 10
+  evasion: 20
+  magicResistance: 5
+  fireDamage: 0
+  iceDamage: 0
+  lightningDamage: 0
+  craftingMaterials:
+  - data: {fileID: 11400000, guid: 1c10915db045bfc4d979c542d4ec83b9, type: 2}
+    stackSize: 1
+  - data: {fileID: 11400000, guid: c50bcbf9c82a7e6449dd5a4df741e471, type: 2}
+    stackSize: 3
