@@ -8,20 +8,66 @@
   <img src="https://img.shields.io/badge/License-MIT-purple?style=flat-square" alt="License" />
 </p>
 
+<p align="center">
+  <img src="Screenshots/gameplay.png" alt="RPG Zero Gameplay" width="85%" />
+</p>
+
 > **RPG Zero** 是一款基于 **Unity 6** 引擎与 **C#** 开发的 2D 横版类银河恶魔城动作角色扮演游戏（2D Metroidvania Action RPG）。
 > 游戏融合了平台跳跃、连招动作战斗、元素异常机制、自由技能树构建以及装备锻造系统。核心遵循 **“探索（Explore） - 锁机制（Lock） - 角色提升（Character）”** 的正反馈闭环设计，带来爽快的打击感与深度的养成体验。
 
 ---
 
+## 📸 游戏截图预览 (Screenshots)
+
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <img src="Screenshots/title_menu.png" alt="主菜单" width="100%" /><br />
+      <b>游戏主菜单 (Title Menu)</b>
+    </td>
+    <td align="center" width="50%">
+      <img src="Screenshots/gameplay.png" alt="主场景战斗" width="100%" /><br />
+      <b>战斗主场景与 HUD (Gameplay)</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Screenshots/character_inventory.png" alt="角色与背包面板" width="100%" /><br />
+      <b>角色面板与装备属性 (Character & Inventory)</b>
+    </td>
+    <td align="center" width="50%">
+      <img src="Screenshots/skill_tree.png" alt="技能树" width="100%" /><br />
+      <b>技能树系统 (Skill Tree)</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Screenshots/crafting.png" alt="装备锻造" width="100%" /><br />
+      <b>材料合成与装备打造 (Crafting System)</b>
+    </td>
+    <td align="center" width="50%">
+      <img src="Screenshots/settings.png" alt="系统设置" width="100%" /><br />
+      <b>系统设置与音量调节 (Settings Menu)</b>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 🌟 核心特色与玩法系统
 
-### 1. ⚔️ 动作与战斗机制（FSM 驱动）
+### 1. ⚔️ 动作与战斗机制（有限状态机 FSM）
 - **灵活的移动机制**：支持奔跑、跳跃、二段跳、空中冲刺（Dash）、蹬墙跳（Wall Jump）与滑墙下落。
 - **丰富的战斗招式**：
   - **三段普通攻击连击**：平滑衔接的动画混合与受击判定。
   - **格挡与弹反反击（Counter Attack）**：在精准时机格挡敌人攻击触发高额反击。
   - **飞剑系统（Sword Throw & Recall）**：支持瞄准射出飞剑穿透/钉刺敌人，并随时召唤回收。
   - **终极技能**：包括克隆残影打击、时空黑洞吸收与引爆、魔法水晶共鸣。
+
+<p align="center">
+  <img src="Screenshots/player_animator.png" alt="Player Animator FSM" width="80%" /><br />
+  <em>玩家分层动画状态机 (Player Animator FSM)</em>
+</p>
 
 ### 2. 🌲 技能树与属性成长
 - **技能树系统**：消耗在冒险中获得的金币逐步点亮专属技能树分支，解锁主动技能与强化被动。
@@ -53,6 +99,11 @@
 - **解耦架构**：采用 **MVC 思想**，将游戏逻辑控制器、UI 表现层与 ScriptableObject 模型集完全解耦。
 - **JSON 档案持久化**：基于 `SaveManager` 与 `DataHandler`，利用 `FileStream` 自动序列化玩家属性、金币、当前穿戴装备、背包物品及技能树进度，保障多场景存档与续关。
 - **音频对象池**：自建 `AudioManager` 音频播放池，独立隔离 BGM 与 SFX，通过随机音高调制（Pitch Modulation）显著增强打击节奏感。
+
+<p align="center">
+  <img src="Screenshots/architecture.png" alt="系统功能结构图" width="85%" /><br />
+  <em>系统功能结构与模块划分 (System Architecture)</em>
+</p>
 
 ---
 
@@ -99,6 +150,7 @@ RPG zero/
 │       ├── Skills/       # 技能基类与各个主动/被动技能实现
 │       ├── Stats/        # 角色属性、数值计算与元素状态系统
 │       └── UI/           # 背包、技能树、锻造、HUD 等界面控制器
+├── Screenshots/          # README 展示与文档高清屏幕截图
 ├── Packages/             # Unity 官方与第三方依赖包声明
 └── ProjectSettings/      # 项目物理、图层、输入与项目设置
 ```
